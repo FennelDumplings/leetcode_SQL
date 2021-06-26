@@ -1,0 +1,139 @@
+
+SQL 是由关键字组成的语言,关键字是一些用于执行 SQL 操作的特殊词汇。在命名数据库、表、列和其他数据库对象时,一定不要使用这些关键字。因此,这些关键字是一定要保留的。
+
+本文列出主要 DBMS 中最常用的保留字。
+
+- 关键字随不同的 DBMS 而变化,并非下面的所有关键字都被所有 DBMS 采用。
+- 许多 DBMS 扩展了 SQL 保留字,使其包含专门用于实现的术语。多数 DBMS 专用的关键字未列在下面。
+- 为保证以后的兼容性和可移植性,应避免使用这些保留字,即使它们不是你使用的 DBMS 的保留字。
+
+---
+
+|                  |                   |               |
+| --               | --                | --            |
+| ABORT            | AS                | BETWEEN       |
+| ABSOLUTE         | ASC               | BIGINT        |
+| ACTION           | ASCENDING         | BINARY        |
+| ACTIVE           | ASSERTION         | BIT           |
+| ADD              | AT                | BLOB          |
+| AFTER            | AUTHORIZATION     | BOOLEAN       |
+| ALL              | AUTO              | BOTH          |
+| ALLOCATE         | AUTO-INCREMENT    | BREAK         |
+| ALTER            | AUTOINC           | BROWSE        |
+| ANALYZE          | AVG               | BULK          |
+| AND              | BACKUP            | BY            |
+| ANY              | BEFORE            | BYTES         |
+| ARE              | BEGIN             | CACHE         |
+| CALL             | CURRENT           | EXCEPT        |
+| CASCADE          | CURRENT_DATE      | EXCEPTION     |
+| CASCADED         | CURRENT_TIME      | EXEC          |
+| CASE             | CURRENT_TIMESTAMP | EXECUTE       |
+| CAST             | CURRENT_USER      | EXISTS        |
+| CATALOG          | CURSOR            | EXIT          |
+| CHANGE           | DATABASE          | EXPLAIN       |
+| CHAR             | DATABASES         | EXTEND        |
+| CHARACTER        | DATE              | EXTERNAL      |
+| CHARACTER_LENGTH | DATETIME          | EXTRACT       |
+| CHECK            | DAY               | FALSE         |
+| CHECKPOINT       | DBCC              | FETCH         |
+| CLOSE            | DEALLOCATE        | FIELD         |
+| CLUSTER          | DEBUG             | FIELDS        |
+| CLUSTERED        | DEC               | FILE          |
+| COALESCE         | DECIMAL           | FILLFACTOR    |
+| COLLATE          | DECLARE           | FILTER        |
+| COLUMN           | DEFAULT           | FLOAT         |
+| COLUMNS          | DELETE            | FLOPPY        |
+| COMMENT          | DENY              | FOR           |
+| COMMIT           | DESC              | FORCE         |
+| COMMITTED        | DESCENDING        | FOREIGN       |
+| COMPUTE          | DESCRIBE          | FOUND         |
+| COMPUTED         | DISCONNECT        | FREETEXT      |
+| CONDITIONAL      | DISK              | FREETEXTTABLE |
+| CONFIRM          | DISTINCT          | FROM          |
+| CONNECT          | DISTRIBUTED       | FULL          |
+| CONNECTION       | DIV               | FUNCTION      |
+| CONSTRAINT       | DO                | GENERATOR     |
+| CONSTRAINTS      | DOMAIN            | GET           |
+| CONTAINING       | DOUBLE            | GLOBAL        |
+| CONTAINS         | DROP              | GO            |
+| CONTAINSTABLE    | DUMMY             | GOTO          |
+| CONTINUE         | DUMP              | GRANT         |
+| CONTROLROW       | ELSE              | GROUP         |
+| CONVERT          | ELSEIF            | HAVING        |
+| COPY             | ENCLOSED          | HOLDLOCK      |
+| COUNT            | END               | HOUR          |
+| CREATE           | ERRLVL            | IDENTITY      |
+| CROSS            | ERROREXIT         | IF            |
+| CSTRING          | ESCAPE            | IN            |
+| CUBE             | ESCAPED           | INACTIVE      |
+| INDEX            | MIRROREXIT        | PERM          |
+| INDICATOR        | MODULE            | PERMANENT     |
+| INFILE           | MONEY             | PIPE          |
+| INNER            | MONTH             | PLAN          |
+| INOUT            | MOVE              | POSITION      |
+| INPUT            | NAMES             | PRECISION     |
+| INSENSITIVE      | NATIONAL          | PREPARE       |
+| INSERT           | NATURAL           | PRIMARY       |
+| INT              | NCHAR             | PRINT         |
+| INTEGER          | NEXT              | PRIOR         |
+| INTERSECT        | NEW               | PRIVILEGES    |
+| INTERVAL         | NO                | PROC          |
+| INTO             | NOCHECK           | PROCEDURE     |
+| IS               | NONCLUSTERED      | PROCESSEXIT   |
+| ISOLATION        | NONE              | PROTECTED     |
+| JOIN             | NOT               | PUBLIC        |
+| KEY              | NULL              | PURGE         |
+| KILL             | NULLIF            | RAISERROR     |
+| LANGUAGE         | NUMERIC           | READ          |
+| LAST             | OF                | READTEXT      |
+| LEADING          | OFF               | REAL          |
+| LEFT             | OFFSET            | REFERENCES    |
+| LENGTH           | OFFSETS           | REGEXP        |
+| LEVEL            | ON                | RELATIVE      |
+| LIKE             | ONCE              | RENAME        |
+| LIMIT            | ONLY              | REPEAT        |
+| LINENO           | OPEN              | REPLACE       |
+| LINES            | OPTION            | REPLICATION   |
+| LISTEN           | OR                | REQUIRE       |
+| LOAD             | ORDER             | RESERV        |
+| LOCAL            | OUTER             | RESERVING     |
+| LOCK             | OUTPUT            | RESET         |
+| LOGFILE          | OVER              | RESTORE       |
+| LONG             | OVERFLOW          | RESTRICT      |
+| LOWER            | OVERLAPS          | RETAIN        |
+| MANUAL           | PAD               | RETURN        |
+| MATCH            | PAGE              | RETURNS       |
+| MAX              | PAGES             | REVOKE        |
+| MERGE            | PARAMETER         | RIGHT         |
+| MESSAGE          | PARTIAL           | ROLLBACK      |
+| MIN              | PASSWORD          | ROLLUP        |
+| MINUTE           | PERCENT           | ROWCOUNT      |
+| RULE             | STARTING          | UNTIL         |
+| SAVE             | STARTS            | UPDATE        |
+| SAVEPOINT        | STATISTICS        | UPDATETEXT    |
+| SCHEMA           | SUBSTRING         | UPPER         |
+| SECOND           | SUM               | USAGE         |
+| SECTION          | SUSPEND           | USE           |
+| SEGMENT          | TABLE             | USER          |
+| SELECT           | TABLES            | USING         |
+| SENSITIVE        | TAPE              | VALUE         |
+| SEPARATOR        | TEMP              | VALUES        |
+| SEQUENCE         | TEMPORARY         | VARCHAR       |
+| SESSION_USER     | TEXT              | VARIABLE      |
+| SET              | TEXTSIZE          | VARYING       |
+| SETUSER          | THEN              | VERBOSE       |
+| SHADOW           | TIME              | VIEW          |
+| SHARED           | TIMESTAMP         | VOLUME        |
+| SHOW             | TO                | WAIT          |
+| SHUTDOWN         | TOP               | WAITFOR       |
+| SINGULAR         | TRAILING          | WHEN          |
+| SIZE             | TRAN              | WHERE         |
+| SMALLINT         | TRANSACTION       | WHILE         |
+| SNAPSHOT         | TRANSLATE         | WITH          |
+| SOME             | TRIGGER           | WORK          |
+| SORT             | TRIM              | WRITE         |
+| SPACE            | TRUE              | WRITETEXT     |
+| SQL              | TRUNCATE          | XOR           |
+| SQLCODE          | UNCOMMITTED       | YEAR          |
+| SQLERROR         | UNION             | ZONE          |
+| STABILITY        | UNIQUE            |               |

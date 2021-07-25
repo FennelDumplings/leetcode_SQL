@@ -28,3 +28,6 @@
 | [511. 游戏玩法分析 I](https://leetcode-cn.com/problems/game-play-analysis-i)                           | 用 MIN 函数求最早的日期                                                                                |
 | [512. 游戏玩法分析 II](https://leetcode-cn.com/problems/game-play-analysis-ii)                         | IN 操作符                                                                                              |
 
+---
+
+![](https://raw.githubusercontent.com/FennelDumplings/images/master/mp/qrcode_baguwen.jpeg?token=AGK6ROBY6FBNEUC7FRSHKRLA7QCRO)
